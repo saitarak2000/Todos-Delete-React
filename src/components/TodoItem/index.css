@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.listitem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 200px;
+  align-self: flex-start;
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  p {
+    width: 500px;
+  }
+}
+
+button {
+  background-color: #ffffff;
+  color: #ff0b37;
+  border: 2px #ff0b37 solid;
+  padding: 5px;
+  height: 30px;
+  width: 55px;
+  border-radius: 13px;
+  font-family: 'Roboto';
+}

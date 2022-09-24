@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+@media screen and (min-width: 768px) {
+  .main-container {
+    height: 100vh;
+  }
+}
+
+.inside-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: Center;
+  align-items: center;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .inside-container {
+    width: 700px;
+  }
+}
+
+h1 {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.Todocontainerslist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
