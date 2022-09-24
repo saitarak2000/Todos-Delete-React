@@ -10,6 +10,8 @@ In this project, let's build a **Simple Todos** app by applying the concepts we 
 
 ### Design Files
 
+### check out the application url
+https://taraktodosDEL.ccbp.tech
 <details>
 <summary>Click to view</summary>
 
